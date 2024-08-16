@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+body {
+	font-family: "Grey Qo", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+p {
+	/* font-size: 32vh; //viewport-height
+	font-size: 16vw; //viewport-width */
+}
+span {
+	display: inline;
+}
+/* div {
+	display: flex;
+	gap: 16px;
+} */
+
+.about {
+	background-color: rgb(5, 130, 70);
+	color: #ffffff;
+}
+
+.card {
+	border: 5px solid #04af50;
+	border-radius: 8px;
+	margin: 16px 32px 48px 56px;
+	/* margin-top: ;
+	margin-right: ;
+	margin-bottom: ;
+	margin-left: ; */
+	padding: 24px;
+	padding-top: ;
+	padding-right: ;
+	padding-bottom: ;
+	padding-left: ;
+}
+
+#about {
+	font-size: 72px;
+}
+
+#bible-columns {
+	columns: 3;
+}

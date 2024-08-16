@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Forms</title>
+	</head>
+	<body>
+		<form action="" method="">
+			<label for="lastName">Votre Nom</label>
+			<input
+				type="text"
+				name="lastName"
+				placeholder="Votre nom"
+				id="lastName"
+				required
+			/>
+			<input type="email" readonly value="shwaib@ksquad.dev" />
+			<input type="url" />
+			<input type="tel" />
+			<input type="date" />
+			<input type="datetime-local" />
+			<input type="number" name="" id="" min="0" max="10 " />
+			<input type="search" />
+			<input type="password" />
+			<input type="color" />
+			<input type="file" accept=".jpeg" />
+			<input type="checkbox" checked disabled />
+			<br />
+			<br />
+			<h5>Choisissez votre genre</h5>
+			<input type="radio" name="gender" value="M" id="male" />
+			<label for="male">Masculin</label>
+			<input type="radio" name="gender" value="F" id="female" />
+			<label for="female">Feminin</label>
+			<input type="radio" name="gender" value="O" id="other" />
+			<label for="other">Autre</label>
+
+			<br />
+			<br />
+
+			<textarea
+				name=""
+				id="textarea"
+				placeholder="Votre commentaire ici"
+				rows="8"
+			></textarea>
+			<select name="" id="">
+				<option disabled>Choisir une langue</option>
+				<option value="bi">Kirundi</option>
+				<option value="en">English</option>
+				<option value="fr">Français</option>
+			</select>
+
+			<br />
+			<br />
+
+			<input type="submit" />
+			<button type="submit">Soumettre</button>
+		</form>
+	</body>
+</html>
