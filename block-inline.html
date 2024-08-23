@@ -9,6 +9,16 @@
 		<style>
 			span {
 				color: blue;
+				width: 160px;
+				height: 100px;
+			}
+			.inline-block {
+				display: inline-block;
+			}
+
+			#about {
+				display: none;
+				/* visibility: hidden; */
 			}
 		</style>
 	</head>
@@ -16,6 +26,7 @@
 	<body>
 		<p>Je vais dormir</p>
 		<span>Je vais dormir</span>
+		<span class="inline-block">J'aime manger!</span>
 
 		<div>
 			<h1 style="display: inline">Introduction</h1>
@@ -57,26 +68,28 @@
 			/>
 		</div>
 
-		<div class="card">
-			<h4>Web dev</h4>
-			<p>
-				Custom web applications built to fit your unique business needs.
-			</p>
-		</div>
-
-		<div class="card">
-			<h4>Mobile app</h4>
-			<p>
-				Native mobile applications built to reach your target audience.
-			</p>
-		</div>
-
-		<div class="card">
-			<h4>Data analysis</h4>
-			<p>
-				Advanced data analysis tools to help you make informed
-				decisions.
-			</p>
+		<div class="flex-container">
+			<div class="card">
+				<h4>Web dev</h4>
+				<p>
+					Custom web applications built to fit your unique business
+					needs.
+				</p>
+			</div>
+			<div class="card">
+				<h4>Mobile app</h4>
+				<p>
+					Native mobile applications built to reach your target
+					audience.
+				</p>
+			</div>
+			<div class="card">
+				<h4>Data analysis</h4>
+				<p>
+					Advanced data analysis tools to help you make informed
+					decisions.
+				</p>
+			</div>
 		</div>
 
 		<br />
