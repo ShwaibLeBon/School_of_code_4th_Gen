@@ -1,0 +1,76 @@
+@import url("../assets/fonts/Inter-Medium.ttf");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	background: linear-gradient(to bottom, #c53fcc 50%, #e360ac);
+	min-height: 100vh;
+}
+
+.container {
+	width: 800px;
+	border-radius: 16px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	display: flex;
+	overflow: hidden;
+}
+
+.container > * {
+	width: 50%;
+}
+
+.bg-placeholder {
+	background: url("../images/Wallpapers/4k-wallpaper-abstract-abstract-expressionism-1269968.jpg")
+		no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.content {
+	padding: 56px 64px;
+	background-color: #000000;
+	color: #f5f5f5;
+}
+
+.content .title {
+	text-transform: capitalize;
+	margin-bottom: 36px;
+}
+
+form > * + * {
+	margin-top: 24px;
+}
+
+input,
+select {
+	outline: none;
+	padding: 8px 0;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+	background: transparent;
+	display: block;
+	width: 100%;
+	color: #aaaaaa;
+}
+
+input:placeholder {
+	color: #aaaaaa;
+}
+
+form button {
+	outline: none;
+	border: none;
+	padding: 8px 24px;
+	background: #4caf50;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #f5f5f5;
+}
